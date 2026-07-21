@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubicación | Boutique La Casa de las Girls</title>
+    <meta name="description" content="Encuentra la ubicación de Boutique La Casa de las Girls en Tocaima, Cundinamarca. Ver mapa interactivo y video de cómo llegar.">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/inicio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<header class="header-container">
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="inicio.html" class="logo" id="logo-main"><img src="../imagenes/logotipo_circular.png" alt="Logo" class="logo-img" style="height:40px; vertical-align:middle;"></a>
+            <ul class="nav-menu">
+                <li><a href="inicio.html" class="nav-link" id="lnk-inicio">Inicio</a></li>
+                <li><a href="productos.html" class="nav-link" id="lnk-productos">Productos</a></li>
+                <li><a href="nosotros.html" class="nav-link" id="lnk-nosotros">Nosotros</a></li>
+                <li><a href="ubicacion.html" class="nav-link active" id="lnk-ubicacion">Ubicación</a></li>
+                <li><a href="#contacto" class="nav-link" id="lnk-contacto">Cómo contactarnos</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="nav-btn" id="cart-open-btn" aria-label="Abrir Carrito">🛒<span class="cart-count" style="display:none;">0</span></button>
+                <button class="menu-toggle" aria-label="Menu" id="btn-menu"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </nav>
+</header>
+<section class="section local-identity-section">
+    <div class="map-container" id="ubicacion" style="margin:40px auto; max-width:800px; border-radius:12px; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+        <h2 class="section-title" style="text-align:center; margin:20px 0 10px;">Ubicación</h2>
+        <iframe src="https://www.google.com/maps?q=4.458639,-74.636444&z=15&output=embed" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="video-container" style="margin: 40px auto; max-width:300px;">
+        <h3 class="section-title" style="text-align:center; margin:10px 0;">Como llegar a la casa de las girls</h3>
+        <video controls style="width:100%; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.15);">
+            <source src="../ubicacion/Como%20llegar%20a%20la%20boutique%20casa%20de%20las%20girl.mp4" type="video/mp4">
+            Tu navegador no soporta el elemento de video.
+        </video>
+    </div>
+</section>
+<footer class="footer">
+    <div class="container footer-grid">
+        <div class="footer-brand">
+            <a href="inicio.html" class="logo" style="margin-bottom:20px;"><span class="logo-icon">🌸</span> Boutique La Casa de las <span>Girls</span></a>
+            <p>Ofrecemos lo mejor en cosmética, salud capilar y moda en Tocaima, Cundinamarca. Realzando tu bienestar físico y estilo con productos 100% garantizados.</p>
+            <div class="social-links">
+                <a href="https://instagram.com" class="social-icon" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@lacasadelasgirls?_r=1" class="social-icon" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=573227170952" class="social-icon" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div>
+            <h4 class="footer-heading">Enlaces</h4>
+            <ul class="footer-links">
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="productos.html">Catálogo Completo</a></li>
+                <li><a href="nosotros.html">Cómo Comprar</a></li>
+                <li><a href="nosotros.html#contacto">Contacto</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4 class="footer-heading">Líneas de Producto</h4>
+            <ul class="footer-links">
+                <li><a href="productos.html?categoria=cosmeticos">Maquillaje Premium</a></li>
+                <li><a href="productos.html?categoria=capilares">Tratamientos Capilares</a></li>
+                <li><a href="productos.html?categoria=personal">Cuidado Personal</a></li>
+                <li><a href="productos.html?categoria=shein">Ropa Shein Importada</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4 class="footer-heading">Atención al Cliente</h4>
+            <ul class="footer-contact" id="contacto">
+                <li><i class="fas fa-map-marker-alt"></i> <span>Punto de entrega en Tocaima, Cundinamarca.</span></li>
+                <li><i class="fas fa-phone-alt"></i> <span>+57 322 717 0952</span></li>
+                <li><i class="fas fa-envelope"></i> <span>contacto@lacasadelasgirls.com</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container footer-bottom">
+        <p>&copy; 2026 Boutique La Casa de las Girls Tocaima. Todos los derechos reservados.</p>
+        <p>Diseñado con amor para la Ciudad Salud de Colombia 🇨🇴</p>
+    </div>
+</footer>
+<script src="../js/main.js"></script>
+</body>
+</html>
